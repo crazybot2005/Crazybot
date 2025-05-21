@@ -13,25 +13,25 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
 
 
 const config = {
-    session: process.env.SESSION_ID || 'keith',
+    session: process.env.SESSION_ID || 'PRINCE-MDX~qOOm3NGsUO2PHvBWzpI8',
     PREFIXE: process.env.PREFIX || ".",
     OWNER_NAME: process.env.OWNER_NAME || "Keith",
     NUMERO_OWNER: process.env.NUMERO_OWNER || "254743995989",     
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',    
     URL: process.env.URL || "https://files.catbox.moe/6hd2t7.jpg",                         
     AUTO_BLOCK: process.env.AUTO_BLOCK || 'no', 
-    GCF: process.env.GROUP_CONTROL || 'no',     
+    GCF: process.env.GROUP_CONTROL || 'yes',     
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || 'viewed by alpha',   
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || 'no',  
     ANTICALL_MSG: process.env.ANTICALL_MSG || 'call declined',             
     GURL: process.env.GURL || "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47",
     EVENTS: process.env.EVENTS || "yes",    
     BOT: process.env.BOT_NAME || 'ALPHA_MD',
-    MODE: process.env.PUBLIC_MODE || "no",              
+    MODE: process.env.PUBLIC_MODE || "yes",              
     TIMEZONE: process.env.TIMEZONE || "Africa/Nairobi", 
-    PM_PERMIT: process.env.PM_PERMIT || 'no',
+    PM_PERMIT: process.env.PM_PERMIT || 'yes',
     DP: process.env.STARTING_BOT_MESSAGE || "yes",
-    ADM: process.env.ANTI_DELETE_MESSAGE || 'no',
+    ADM: process.env.ANTI_DELETE_MESSAGE || 'yes',
     
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
